@@ -11,8 +11,6 @@
   width: 450px;
   text-align: start;
 }
-
-
 .chart-box {
   position: relative;
   align-items: center;
@@ -67,6 +65,20 @@
 
 .header {
   width: 100%;
+  display: flex;
+  text-align: center;
 }
+
+.content-id {
+  width: 50px;
+  text-align: center;
+}
+.content-value {
+  background-color: #c3e5e6ee;
+  color: black;
+  width: 350px;
+  text-align: center;
+}
+
 
 
