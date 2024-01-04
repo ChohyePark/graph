@@ -1,0 +1,68 @@
+
+
+
+.wrap {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+}
+
+.btn {
+ margin-top: 20px;
+ display: block;
+ width: 15px;
+ height: 15px;
+ border: 3px solid #000;
+ border-width: 3px 3px 0 0;
+ cursor: pointer;
+}
+
+.prev {
+  transform: rotate(-135deg);
+}
+
+.next {
+  transform: rotate(45deg);
+}
+
+
+
+.dateHeader div {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(180, 180, 230);
+}
+
+.grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-gap: 6px;
+}
+
+.dateBoard {
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+}
+
+.dateBoard div {
+  padding : 10px;
+  border: 1px solid #eeee;
+}
+
+.noColor {
+  background-color: #eeee;
+}
